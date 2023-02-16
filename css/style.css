@@ -4,7 +4,25 @@ body{
     margin: 0;
     padding:0;
 }
-
+.navbar{
+    width:80%;
+    margin: auto;
+    display:flex;
+    justify-content:space-between; 
+    align-items: center; 
+    margin-bottom: 102px;
+}
+.logo h2{
+    font-weight: 700;
+    font-size: 45px;
+}
+.menu a{
+    text-decoration: none;
+    margin-right: 20px;  
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px;
+}
 header{
     background-color: rgba(255, 144, 14, 0.1);
 }
@@ -176,4 +194,98 @@ header{
     color: white;
     text-align: center;
     margin-top: 0;
+}
+
+.container-4{
+    width: 80%;
+    margin: auto;
+}
+
+.container-4 P{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 100px;
+}
+.container-5{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 180px;
+}
+
+.medels{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content:space-evenly;
+}
+
+.medel{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width: 241.83px;
+    height: 241.83px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.medel img{
+    width: 45px;
+    height: 45px;
+}
+
+.medel p{
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+.container-6{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-bottom: 130px;
+}
+.sponsor-header{
+    text-align: center;
+    width: 542px;
+    height: 129px;
+    margin-bottom: 50px;
+}
+
+.sponsor-header h1{
+    font-weight: 700;
+    font-size: 45px;
+}
+.sponsor-header p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.sponsor-img{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    mix-blend-mode: luminosity;
+}
+
+.container-7{
+    width: 80%;
+    margin: auto;
+    width: 1440px;
+    height: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin-bottom: 216px;
+}
+
+.container-7 p{
+    padding-top: 45px;
+    text-align: center;
 }
